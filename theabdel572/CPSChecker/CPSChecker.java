@@ -7,7 +7,7 @@ public class CPSChecker {
 		Frame frame = new Frame();
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setVisible(true);
-		frame.setTitle("CPSChecker - by theabdel572");
+		frame.setTitle("CPS by theabdel572");
 		frame.setVisible(true);
 		frame.setSize(300, 300);
 	}
