@@ -5,6 +5,7 @@ import javax.swing.JFrame;
 @SuppressWarnings("serial")
 public class Frame extends JFrame{
 	public Frame() {
-		add(new Panel());
+		Panel panel = new Panel();
+		add(panel);
 	}
 }
