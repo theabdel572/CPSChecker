@@ -80,10 +80,10 @@ public class Panel extends JPanel{
 							Graphics g = getGraphics();
 							String x = String.valueOf(CPS);
 							String check = "You got "+x+" CPS!";
-							g.fillRect(87, 70, 120, 25);
+							g.fillRect(70, 130, 150, 25);
 							g.setFont(font);
 							g.setColor(Color.white);
-							g.drawString(check, 90, 90);
+							g.drawString(check, 87, 150);
 						}
 						CPS = 0;
 						timerSecond.setRepeats(false);
@@ -117,7 +117,7 @@ public class Panel extends JPanel{
 				g.setFont(font);
 				g.drawString(x, 137, 118);
 				g.setColor(getBackground());
-				g.fillRect(87, 70, 120, 25);
+				g.fillRect(70, 130, 150, 25);
 			}else if(e.getSource().equals(twitter)) {
 				try {
 					Desktop.getDesktop().browse(new URI("https://twitter.com/T572yt"));
